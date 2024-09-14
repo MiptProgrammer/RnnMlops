@@ -1,9 +1,6 @@
 import torch
 import torch.nn as nn
-import matplotlib.pyplot as plt
 
-from utils_rnn import ALL_LETTERS, N_LETTERS
-from utils_rnn import load_data, letter_to_tensor, line_to_tensor, random_training_example
 
 
 class RNN(nn.Module):

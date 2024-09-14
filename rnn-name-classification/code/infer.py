@@ -1,10 +1,9 @@
 import torch
-import torch.nn as nn
-import matplotlib.pyplot as plt
 
-from utils_rnn import ALL_LETTERS, N_LETTERS, category_from_output
-from utils_rnn import load_data, letter_to_tensor, line_to_tensor, random_training_example
-from rnnmodel import RNN
+
+from code.utils_rnn import ALL_LETTERS, N_LETTERS, category_from_output
+from code.utils_rnn import load_data, letter_to_tensor, line_to_tensor, random_training_example
+from code.rnnmodel import RNN
 
 def infer(input_line):
     print(f"\n> {input_line}")

@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 
-from utils_rnn import load_data, letter_to_tensor, line_to_tensor, random_training_example, category_from_output, \
+from code.utils_rnn import load_data, letter_to_tensor, line_to_tensor, random_training_example, category_from_output, \
     N_LETTERS
-from rnnmodel import RNN
+from code.rnnmodel import RNN
 
 
 
