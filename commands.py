@@ -1,6 +1,6 @@
-from code import train
-from code import infer
+import subprocess
 
-train()
+subprocess.run(["python", "code/train.py"])
 
-infer('Vera')
+
+subprocess.run(["python", "code/infer.py"])
