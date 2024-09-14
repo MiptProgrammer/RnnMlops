@@ -1,28 +1,34 @@
-## RNN In PyTorch
-Implement a Recurrent Neural Net (RNN) from scratch in PyTorch! I briefly explain the theory and different kinds of applications of RNNs. Then we implement a RNN to do name classification.
+## RNN in PyTorch
+
+Implement a Recurrent Neural Network (RNN) from scratch in PyTorch! This guide briefly explains the theory and different kinds of applications of RNNs. Then, we implement an RNN to perform name classification.
 
 ## Watch the Tutorial
-  [![Alt text](https://img.youtube.com/vi/WEV61GmmPrk/hqdefault.jpg)](https://youtu.be/WEV61GmmPrk)
+
+[![Alt text](https://img.youtube.com/vi/WEV61GmmPrk/hqdefault.jpg)](https://youtu.be/WEV61GmmPrk)
 
 ## Resources
-Download the data:
-https://download.pytorch.org/tutorial/data.zip
 
+- **Download the data:** [data.zip](https://download.pytorch.org/tutorial/data.zip)
 
-Further Readings:
+### Further Readings
 
-- https://karpathy.github.io/2015/05/21/rnn-effectiveness/
-- https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks#architecture
-- https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html
+- [The Unreasonable Effectiveness of Recurrent Neural Networks](https://karpathy.github.io/2015/05/21/rnn-effectiveness/) by Andrej Karpathy
+- [Recurrent Neural Networks Cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks#architecture) by Shervine Amidi
+- [PyTorch Char-RNN Classification Tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html)
 
-  Основные задачи проекта:
-Контейнеризация и развертывание: Использование Docker и Docker Compose для создания и управления контейнерами, что позволяет легко развернуть приложение на любом сервере или облаке.
-Обучение модели: Разработка и обучение RNN для работы с текстовыми данными, поддержка многоязычности через использование различных наборов данных.
-Инференс и использование модели: Обеспечение удобного интерфейса для предсказаний на новых данных через инференс-скрипты.
-Автоматизация: Автоматизация процессов разработки, обучения и развертывания с помощью скриптов и конфигурационных файлов.
+## Основные задачи проекта
+
+- **Контейнеризация и развертывание:** Использование Docker и Docker Compose для создания и управления контейнерами, что позволяет легко развернуть приложение на любом сервере или облаке.
+- **Обучение модели:** Разработка и обучение RNN для работы с текстовыми данными, поддержка многоязычности через использование различных наборов данных.
+- **Инференс и использование модели:** Обеспечение удобного интерфейса для предсказаний на новых данных через инференс-скрипты.
+- **Автоматизация:** Автоматизация процессов разработки, обучения и развертывания с помощью скриптов и конфигурационных файлов.
+
 Проект предназначен для тех, кто интересуется применением MLOps в реальных задачах машинного обучения и контейнеризацией ML моделей.
-  Структура проекта
-  .
+
+## Структура проекта
+
+```plaintext
+.
 ├── Dockerfile
 ├── README.Docker.md
 ├── README.md
@@ -55,4 +61,5 @@ Further Readings:
 │       ├── Spanish.txt
 │       └── Vietnamese.txt
 └── requirements.txt
+
   
